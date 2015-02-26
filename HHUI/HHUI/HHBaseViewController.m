@@ -26,6 +26,7 @@
 
 - (void)setParameters:(NSDictionary *)parameters {
     self.paramDict = parameters;
+//    NSLog(@"传入参数为 %@",self.paramDict);
 //    NSString *str = [parameters objectForKey:TBNavigationCTLIsModelKey];
 //    self.isModelViewCTL = (str != nil);
 }
