@@ -76,9 +76,11 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
-    s.dependency 'HHCocoaTestFrameWork', '1.0.3'
+#s.dependency 'HHCocoaTestFrameWork', '1.0.3'
+
+    s.dependency "HHPlayerSDK"
   
   # 验证私有库依赖问题
-  # pod lib lint --sources='https://git.speiyou.cn/app/xes_bclib_ios_privatepods,https://github.com/CocoaPods/Specs' --allow-warnings
+  # pod lib lint --sources='ttps://github.com/LeAustinHan/HHPlayerSDK.git,https://github.com/CocoaPods/Specs' --allow-warnings
 
 end
