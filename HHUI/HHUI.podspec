@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   #pod的名称
   s.name         = "HHUI"
   #pod的版本
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   #pod简介(最多140字符)
   s.summary      = "HHUI."
   #pod详细描述
