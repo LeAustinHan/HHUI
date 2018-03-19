@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   #pod的名称
   s.name         = "HHUI"
   #pod的版本
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   #pod简介(最多140字符)
   s.summary      = "HHUI."
   #pod详细描述
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #资源文件
     #s.resource = "XESTeacher.xcassets"
 
-  s.resources = ["HHUI/Resources/*.plist","CloudLearning_MyInfo/Resources/*.xcassets"]
+#s.resources = ["HHUI/Resources/*.plist","CloudLearning_MyInfo/Resources/*.xcassets"]
 
   # s.resources = "HHUI/Resources/*.plist"
 
@@ -76,6 +76,7 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
+    s.dependency "HHCocoaTestFrameWork"
   
   # 验证私有库依赖问题
   # pod lib lint --sources='https://git.speiyou.cn/app/xes_bclib_ios_privatepods,https://github.com/CocoaPods/Specs' --allow-warnings
