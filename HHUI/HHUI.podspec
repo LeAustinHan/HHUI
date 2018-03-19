@@ -59,7 +59,7 @@ Pod::Spec.new do |s|
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-  #需要系统framwork
+  #需要系统framwork3
   # s.ios.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
-    s.dependency "HHCocoaTestFrameWork"
+    s.dependency 'HHCocoaTestFrameWork', '1.0.3'
   
   # 验证私有库依赖问题
   # pod lib lint --sources='https://git.speiyou.cn/app/xes_bclib_ios_privatepods,https://github.com/CocoaPods/Specs' --allow-warnings
