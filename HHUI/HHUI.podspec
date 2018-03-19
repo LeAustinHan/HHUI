@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/LeAustinHan/HHUI.git", :tag => s.version.to_s }
 
   #需要包含的源文件
-  s.source_files  = "HHUI/**/*.{h,m}"
+  s.source_files  = ["HHUI/*.{h,m}","HHUI/**/*.{h,m}"]
   #需要移除的文件
   # s.exclude_files = "Classes/Exclude"
   #公开的头文件。如果没有指定公共头文件，那么source文件中的所有头文件都被认为是公开的。
