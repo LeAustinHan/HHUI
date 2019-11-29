@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   #pod的名称
   s.name         = "HHUI"
   #pod的版本
-  s.version      = "1.0.1"
+  s.version      = "1.0.6"
   #pod简介(最多140字符)
   s.summary      = "HHUI."
   #pod详细描述
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/LeAustinHan/HHUI.git", :tag => s.version.to_s }
 
   #需要包含的源文件
-  s.source_files  = "HHUI/**/*.{h,m}"
+  s.source_files  = ["HHUI/*.{h,m}","HHUI/**/*.{h,m}"]
   #需要移除的文件
   # s.exclude_files = "Classes/Exclude"
   #公开的头文件。如果没有指定公共头文件，那么source文件中的所有头文件都被认为是公开的。
@@ -76,9 +76,9 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
-#s.dependency 'HHCocoaTestFrameWork', '1.0.3'
+  #s.dependency 'HHCocoaTestFrameWork', '1.0.3'
 
-    s.dependency "HHPlayerSDK"
+  #s.dependency "HHPlayerSDK"
   
   # 验证私有库依赖问题
   # pod lib lint --sources='ttps://github.com/LeAustinHan/HHPlayerSDK.git,https://github.com/CocoaPods/Specs' --allow-warnings
