@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   #pod的名称
   s.name         = "HHUI"
   #pod的版本
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   #pod简介(最多140字符)
   s.summary      = "HHUI."
   #pod详细描述
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
                    DESC
   #项目主页地址
-  s.homepage     = "https://github.com/LeAustinHan/HHUI.git"
+  s.homepage     = "https://github.com/LeAustinHan/HHUI"
 
   #spec.screenshots = [ 'http://dl.dropbox.com/u/378729/MBProgressHUD/1.png', 'http://dl.dropbox.com/u/378729/MBProgressHUD/2.png' ]
   #
@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   #作者
   s.author             = { "HanHan" => "314456527@qq.com" }
-  # Or just: s.author    = "xuqiang"
-  # s.authors            = { "xuqiang" => "314456527@qq.com" }
+  # Or just: s.author    = "HanHan"
+  # s.authors            = { "HanHan" => "314456527@qq.com" }
   #社交网址 微薄或者博客
   # s.social_media_url   = "314456527@qq.com"
 
@@ -81,6 +81,6 @@ Pod::Spec.new do |s|
   #s.dependency "HHPlayerSDK"
   
   # 验证私有库依赖问题
-  # pod lib lint --sources='ttps://github.com/LeAustinHan/HHPlayerSDK.git,https://github.com/CocoaPods/Specs' --allow-warnings
+  # pod lib lint --sources='ttps://github.com/LeAustinHan/HHUI.git,https://github.com/CocoaPods/Specs' --allow-warnings
 
 end
